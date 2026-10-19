@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# Generated outputs
+outputs/
+exports/
+*.log
+
+# Large/private research data should not be committed by default
+private_data/
+raw_data/
